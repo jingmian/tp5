@@ -1,1 +1,1 @@
-<?phpnamespace home;use think\db;class game extends \move\mvc\Controller{	public function __construct()	{		parent::__construct();	}	public function index()	{		redirect('/issue');	}}
+<?phpnamespace app\index\controller;use think\db;class game extends \move\mvc\Controller{	public function __construct()	{		parent::__construct();	}	public function index()	{		redirect('/issue');	}}

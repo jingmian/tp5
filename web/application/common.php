@@ -14,3 +14,13 @@ function num($num)
 {
     return $num;
 }
+
+function get_ip()
+{
+    return '127.0.0.1';
+}
+
+function get_city()
+{
+    return '广州';
+}

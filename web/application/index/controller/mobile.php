@@ -1,1 +1,1 @@
-<?phpnamespace home;use think\db;class mobile extends home{	public function index()	{		redirect('/wap');	}} 
+<?phpnamespace app\index\controller;use think\db;class mobile extends home{	public function index()	{		redirect('/wap');	}} 

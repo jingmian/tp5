@@ -1,1 +1,1 @@
-<?phpnamespace home;use think\db;use Move\ext\page;class help extends home{	public function __construct()	{		parent::__construct();		$this->is_game('help');	}	public function index()	{		$this->display();	}}
+<?phpnamespace app\index\controller;use think\db;use Move\ext\page;class help extends home{	public function __construct()	{		parent::__construct();		$this->is_game('help');	}	public function index()	{		$this->display();	}}
