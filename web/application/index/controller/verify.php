@@ -1,7 +1,7 @@
 <?php
 namespace home;
 
-use Move\db;
+use think\db;
 
 
 // 验证管理

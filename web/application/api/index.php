@@ -1,0 +1,1 @@
+<?phpnamespace api;use think\db;class index extends api{	public function index()	{		redirect('/index/api');	}} 

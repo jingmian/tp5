@@ -1,0 +1,1 @@
+<?phpnamespace ext;use think\db;class sys{}

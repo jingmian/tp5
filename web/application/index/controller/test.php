@@ -1,6 +1,6 @@
 <?php
 namespace home;
-use Move\db;
+use think\db;
 
 class test extends home
 {

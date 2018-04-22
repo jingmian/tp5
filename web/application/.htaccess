@@ -1,1 +1,14 @@
-deny from all
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+
+#  静态化
+  RewriteCond %{DOCUMENT_ROOT}/htmls/$1/$2.html -f
+  RewriteRule ^/?([\w\d-]+)/([^//]*).html$ htmls/$1/$2.html [L]
+#  静态化
+
+
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteRule ^(.*)$ index.php?s=/$1 [QSA,PT,L]
+</IfModule>
