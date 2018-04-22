@@ -1,0 +1,1 @@
+<?phpnamespace app\common\model;use think\db;use think\Model;class Common extends Model{}
